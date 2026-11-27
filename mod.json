@@ -1,0 +1,657 @@
+{
+  "geode": "v5.11.2",
+  "gd": "2.209",
+  "id": "kaizxfaq.vantamenuv1",
+  "name": "VantaMenuV1",
+  "version": "1.0.0",
+  "developer": "kaizxfaq",
+  "description": "A local-only Geometry Dash utility menu with 100 configurable dashboard rows.",
+  "tags": [
+    "utility",
+    "interface",
+    "customization",
+    "offline"
+  ],
+  "settings": {
+    "group_identity": {
+      "type": "title",
+      "name": "Identity and compatibility"
+    },
+    "feature_001": {
+      "type": "bool",
+      "name": "Mod name",
+      "description": "Show the mod name in the Vanta dashboard.",
+      "default": true
+    },
+    "feature_002": {
+      "type": "bool",
+      "name": "Developer credit",
+      "description": "Show the developer credit in the Vanta dashboard.",
+      "default": true
+    },
+    "feature_003": {
+      "type": "bool",
+      "name": "Mod version",
+      "description": "Show the installed mod version in the Vanta dashboard.",
+      "default": true
+    },
+    "feature_004": {
+      "type": "bool",
+      "name": "Mod identifier",
+      "description": "Show the mod identifier in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_005": {
+      "type": "bool",
+      "name": "Geometry Dash target",
+      "description": "Show the Geometry Dash target version in the Vanta dashboard.",
+      "default": true
+    },
+    "feature_006": {
+      "type": "bool",
+      "name": "Geode target",
+      "description": "Show the Geode target version in the Vanta dashboard.",
+      "default": true
+    },
+    "feature_007": {
+      "type": "bool",
+      "name": "Compatibility reminder",
+      "description": "Show the runtime compatibility reminder in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_008": {
+      "type": "bool",
+      "name": "Supported platforms",
+      "description": "Show the CI build targets in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_009": {
+      "type": "bool",
+      "name": "Build metadata",
+      "description": "Show the build metadata note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_010": {
+      "type": "bool",
+      "name": "Feature count",
+      "description": "Show the total dashboard row count in the Vanta dashboard.",
+      "default": true
+    },
+    "group_dashboard": {
+      "type": "title",
+      "name": "Dashboard information"
+    },
+    "feature_011": {
+      "type": "bool",
+      "name": "Dashboard summary",
+      "description": "Show the dashboard summary row in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_012": {
+      "type": "bool",
+      "name": "Selected row count",
+      "description": "Show the selected row count in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_013": {
+      "type": "bool",
+      "name": "Enabled row count",
+      "description": "Show the enabled row count in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_014": {
+      "type": "bool",
+      "name": "Disabled row count",
+      "description": "Show the disabled row count in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_015": {
+      "type": "bool",
+      "name": "Dashboard category list",
+      "description": "Show the dashboard category list in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_016": {
+      "type": "bool",
+      "name": "Dashboard help",
+      "description": "Show the dashboard help row in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_017": {
+      "type": "bool",
+      "name": "Empty selection note",
+      "description": "Show the empty selection guidance in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_018": {
+      "type": "bool",
+      "name": "Settings navigation hint",
+      "description": "Show the settings navigation hint in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_019": {
+      "type": "bool",
+      "name": "Dashboard footer",
+      "description": "Show the dashboard footer in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_020": {
+      "type": "bool",
+      "name": "Dashboard version note",
+      "description": "Show the dashboard version note in the Vanta dashboard.",
+      "default": false
+    },
+    "group_interface": {
+      "type": "title",
+      "name": "Interface options"
+    },
+    "feature_021": {
+      "type": "bool",
+      "name": "Compact layout note",
+      "description": "Show the compact layout note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_022": {
+      "type": "bool",
+      "name": "Large text note",
+      "description": "Show the large text note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_023": {
+      "type": "bool",
+      "name": "Contrast note",
+      "description": "Show the contrast note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_024": {
+      "type": "bool",
+      "name": "Reduced motion note",
+      "description": "Show the reduced motion note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_025": {
+      "type": "bool",
+      "name": "Touch layout note",
+      "description": "Show the touch layout note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_026": {
+      "type": "bool",
+      "name": "Keyboard navigation note",
+      "description": "Show the keyboard navigation note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_027": {
+      "type": "bool",
+      "name": "Label style note",
+      "description": "Show the label style note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_028": {
+      "type": "bool",
+      "name": "Section spacing note",
+      "description": "Show the section spacing note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_029": {
+      "type": "bool",
+      "name": "Button placement note",
+      "description": "Show the button placement note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_030": {
+      "type": "bool",
+      "name": "Text wrapping note",
+      "description": "Show the text wrapping note in the Vanta dashboard.",
+      "default": false
+    },
+    "group_accessibility": {
+      "type": "title",
+      "name": "Accessibility information"
+    },
+    "feature_031": {
+      "type": "bool",
+      "name": "Readable labels",
+      "description": "Show the readable labels guidance in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_032": {
+      "type": "bool",
+      "name": "High contrast guidance",
+      "description": "Show the high contrast guidance in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_033": {
+      "type": "bool",
+      "name": "Motion guidance",
+      "description": "Show the motion guidance in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_034": {
+      "type": "bool",
+      "name": "Color-independent status",
+      "description": "Show the color-independent status guidance in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_035": {
+      "type": "bool",
+      "name": "Short label guidance",
+      "description": "Show the short label guidance in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_036": {
+      "type": "bool",
+      "name": "Screen reader label note",
+      "description": "Show the screen reader label note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_037": {
+      "type": "bool",
+      "name": "Input focus note",
+      "description": "Show the input focus note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_038": {
+      "type": "bool",
+      "name": "Touch target note",
+      "description": "Show the touch target note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_039": {
+      "type": "bool",
+      "name": "Clear state text",
+      "description": "Show the clear state text in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_040": {
+      "type": "bool",
+      "name": "Accessibility scope",
+      "description": "Show the accessibility scope note in the Vanta dashboard.",
+      "default": false
+    },
+    "group_navigation": {
+      "type": "title",
+      "name": "Navigation information"
+    },
+    "feature_041": {
+      "type": "bool",
+      "name": "Main menu access",
+      "description": "Show the main menu access note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_042": {
+      "type": "bool",
+      "name": "Dashboard action",
+      "description": "Show the dashboard action note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_043": {
+      "type": "bool",
+      "name": "Settings action",
+      "description": "Show the settings action note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_044": {
+      "type": "bool",
+      "name": "Geode settings path",
+      "description": "Show the Geode settings path in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_045": {
+      "type": "bool",
+      "name": "Mods page hint",
+      "description": "Show the Mods page hint in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_046": {
+      "type": "bool",
+      "name": "Panel grouping",
+      "description": "Show the panel grouping note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_047": {
+      "type": "bool",
+      "name": "Back button guidance",
+      "description": "Show the back button guidance in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_048": {
+      "type": "bool",
+      "name": "Close button guidance",
+      "description": "Show the close button guidance in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_049": {
+      "type": "bool",
+      "name": "Menu button label",
+      "description": "Show the menu button label note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_050": {
+      "type": "bool",
+      "name": "Navigation scope",
+      "description": "Show the navigation scope note in the Vanta dashboard.",
+      "default": false
+    },
+    "group_diagnostics": {
+      "type": "title",
+      "name": "Read-only diagnostics"
+    },
+    "feature_051": {
+      "type": "bool",
+      "name": "Game version status",
+      "description": "Show the game version status row in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_052": {
+      "type": "bool",
+      "name": "Geode version status",
+      "description": "Show the Geode version status row in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_053": {
+      "type": "bool",
+      "name": "Mod load status",
+      "description": "Show the mod load status row in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_054": {
+      "type": "bool",
+      "name": "Configuration status",
+      "description": "Show the configuration status row in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_055": {
+      "type": "bool",
+      "name": "Selected panels status",
+      "description": "Show the selected panels status row in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_056": {
+      "type": "bool",
+      "name": "Menu entry status",
+      "description": "Show the menu entry status row in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_057": {
+      "type": "bool",
+      "name": "Build target status",
+      "description": "Show the build target status row in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_058": {
+      "type": "bool",
+      "name": "Dependency status",
+      "description": "Show the dependency status row in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_059": {
+      "type": "bool",
+      "name": "Local-only status",
+      "description": "Show the local-only status row in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_060": {
+      "type": "bool",
+      "name": "Diagnostic limitations",
+      "description": "Show the diagnostic limitations row in the Vanta dashboard.",
+      "default": false
+    },
+    "group_privacy": {
+      "type": "title",
+      "name": "Privacy and storage"
+    },
+    "feature_061": {
+      "type": "bool",
+      "name": "Local settings",
+      "description": "Show the local settings note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_062": {
+      "type": "bool",
+      "name": "No telemetry",
+      "description": "Show the no telemetry note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_063": {
+      "type": "bool",
+      "name": "No network requests",
+      "description": "Show the no network requests note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_064": {
+      "type": "bool",
+      "name": "No account access",
+      "description": "Show the no account access note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_065": {
+      "type": "bool",
+      "name": "No save editing",
+      "description": "Show the no save editing note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_066": {
+      "type": "bool",
+      "name": "No file scanning",
+      "description": "Show the no file scanning note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_067": {
+      "type": "bool",
+      "name": "Local configuration scope",
+      "description": "Show the local configuration scope note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_068": {
+      "type": "bool",
+      "name": "Data reset guidance",
+      "description": "Show the data reset guidance in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_069": {
+      "type": "bool",
+      "name": "Privacy summary",
+      "description": "Show the privacy summary in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_070": {
+      "type": "bool",
+      "name": "Offline mode",
+      "description": "Show the offline mode note in the Vanta dashboard.",
+      "default": false
+    },
+    "group_build": {
+      "type": "title",
+      "name": "Build and release"
+    },
+    "feature_071": {
+      "type": "bool",
+      "name": "CMake project",
+      "description": "Show the CMake project note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_072": {
+      "type": "bool",
+      "name": "Geode SDK requirement",
+      "description": "Show the Geode SDK requirement in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_073": {
+      "type": "bool",
+      "name": "Windows build",
+      "description": "Show the Windows build target in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_074": {
+      "type": "bool",
+      "name": "Android build",
+      "description": "Show the Android build target in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_075": {
+      "type": "bool",
+      "name": "GitHub Actions",
+      "description": "Show the GitHub Actions workflow note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_076": {
+      "type": "bool",
+      "name": "Build artifact note",
+      "description": "Show the build artifact note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_077": {
+      "type": "bool",
+      "name": "Install guidance",
+      "description": "Show the install guidance in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_078": {
+      "type": "bool",
+      "name": "Versioning note",
+      "description": "Show the versioning note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_079": {
+      "type": "bool",
+      "name": "Source layout",
+      "description": "Show the source layout note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_080": {
+      "type": "bool",
+      "name": "Release checklist",
+      "description": "Show the release checklist note in the Vanta dashboard.",
+      "default": false
+    },
+    "group_safe_scope": {
+      "type": "title",
+      "name": "Safe utility scope"
+    },
+    "feature_081": {
+      "type": "bool",
+      "name": "No gameplay changes",
+      "description": "Show the no gameplay changes note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_082": {
+      "type": "bool",
+      "name": "No physics changes",
+      "description": "Show the no physics changes note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_083": {
+      "type": "bool",
+      "name": "No timing changes",
+      "description": "Show the no timing changes note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_084": {
+      "type": "bool",
+      "name": "No unlock changes",
+      "description": "Show the no unlock changes note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_085": {
+      "type": "bool",
+      "name": "No bypasses",
+      "description": "Show the no bypasses note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_086": {
+      "type": "bool",
+      "name": "No automation",
+      "description": "Show the no automation note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_087": {
+      "type": "bool",
+      "name": "Read-only diagnostics",
+      "description": "Show the read-only diagnostics note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_088": {
+      "type": "bool",
+      "name": "Interface-only options",
+      "description": "Show the interface-only options note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_089": {
+      "type": "bool",
+      "name": "Single-player safe scope",
+      "description": "Show the single-player safe scope note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_090": {
+      "type": "bool",
+      "name": "Safe feature summary",
+      "description": "Show the safe feature summary in the Vanta dashboard.",
+      "default": false
+    },
+    "group_help": {
+      "type": "title",
+      "name": "Help and credits"
+    },
+    "feature_091": {
+      "type": "bool",
+      "name": "Getting started",
+      "description": "Show the getting started note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_092": {
+      "type": "bool",
+      "name": "Configuration help",
+      "description": "Show the configuration help note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_093": {
+      "type": "bool",
+      "name": "Compatibility help",
+      "description": "Show the compatibility help note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_094": {
+      "type": "bool",
+      "name": "Build help",
+      "description": "Show the build help note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_095": {
+      "type": "bool",
+      "name": "Issue reporting",
+      "description": "Show the issue reporting note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_096": {
+      "type": "bool",
+      "name": "Maintainer attribution",
+      "description": "Show the developer credit note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_097": {
+      "type": "bool",
+      "name": "Project source",
+      "description": "Show the project source note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_098": {
+      "type": "bool",
+      "name": "Changelog note",
+      "description": "Show the changelog note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_099": {
+      "type": "bool",
+      "name": "Open source note",
+      "description": "Show the open source note in the Vanta dashboard.",
+      "default": false
+    },
+    "feature_100": {
+      "type": "bool",
+      "name": "Vanta safety scope",
+      "description": "Show the Vanta safety scope note in the Vanta dashboard.",
+      "default": false
+    }
+  }
+    }
